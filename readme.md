@@ -1,7 +1,7 @@
-Raspberry Pi microcontroller playground
+# Raspberry Pi microcontroller playground
 
-This is a clone of https://github.com/ImplFerris/pico2-quick that adds a rust devcontainer complete with the [dev setup](https://pico.implrust.com/setup.html)
-The quickstart of the wonderful book [Embedded Programming with Raspberry Pi Pico 2 and Rust](https://github.com/ImplFerris/pico-pico) .
+This is a clone of https://github.com/ImplFerris/pico2-quick that adds a rust devcontainer complete with the [dev setup](https://pico.implrust.com/setup.html).  
+It's the quickstart of the wonderful book [Embedded Programming with Raspberry Pi Pico 2 and Rust](https://github.com/ImplFerris/pico-pico).
 
 
 ## install

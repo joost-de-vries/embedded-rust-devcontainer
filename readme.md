@@ -18,7 +18,7 @@ Once the dev container is running, in the terminal do
 
 ## References:  
 [Embedded Programming with Raspberry Pi Pico 2 and Rust](https://pico.implrust.com)  
-Devcontainers with podman https://geekingoutpodcast.substack.com/p/running-dev-containers-locally-with
+[Devcontainers with podman]( https://geekingoutpodcast.substack.com/p/running-dev-containers-locally-with)   
 
-[Embedded Rust Book](https://docs.rust-embedded.org/book/)
+[Embedded Rust Book](https://docs.rust-embedded.org/book/)  
 [Embassy Book](https://embassy.dev/book/)

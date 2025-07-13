@@ -12,12 +12,13 @@ Then do  `command + shift + p` and type `Dev Container:
 Rebuild and Reopen in Container`
 
 (The rust devcontainer : https://github.com/devcontainers/images/blob/main/src/rust/.devcontainer/Dockerfile)
-Once the dev container is running in the terminal do
-`cargo build`  
+Once the dev container is running, in the terminal do   
+```cargo build```
 ```cargo run```
 
-References:  
+## References:  
 [Embedded Programming with Raspberry Pi Pico 2 and Rust](https://pico.implrust.com)  
 Devcontainers with podman https://geekingoutpodcast.substack.com/p/running-dev-containers-locally-with
 
-Other
+[Embedded Rust Book](https://docs.rust-embedded.org/book/)
+[Embassy Book](https://embassy.dev/book/)

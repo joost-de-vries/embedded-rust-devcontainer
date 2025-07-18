@@ -1,12 +1,14 @@
 {
-    "build": {
-        "dockerfile": "./Dockerfile",
-        "context": "."
-    },
+    // reference https://containers.dev/implementors/json_reference/
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "devcontainer",
+    "workspaceFolder": "/workspace",
     "customizations": {
         "vscode": {
-    "extensions": ["raspberry-pi.raspberry-pi-pico"],
-
+            "extensions": [
+                // "raspberry-pi.raspberry-pi-pico",
+                "tamasfe.even-better-toml"
+             ]
         }
     },
     "features": {
@@ -17,7 +19,7 @@
             "userGid": "1000",
             "upgradePackages": "true"
         },
-        "ghcr.io/devcontainers/features/rust:1": "latest",
+//        "ghcr.io/devcontainers/features/rust:1": "latest",
 	    "ghcr.io/devcontainers/features/git:1": {
             "version": "latest",
             "ppa": "false"

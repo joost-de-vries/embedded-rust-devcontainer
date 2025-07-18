@@ -1,0 +1,10 @@
+services:
+# see https://containers.dev/guide/dockerfile
+  devcontainer:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ..:/workspace:cached
+#    network_mode: service:db
+    command: sleep infinity      

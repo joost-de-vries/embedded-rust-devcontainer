@@ -1,7 +1,7 @@
 FROM  mcr.microsoft.com/devcontainers/rust:latest
 
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
-    && apt-get -y install --no-install-recommends build-essential pkg-config libusb-1.0-0-dev cmake
+    && apt-get -y install --no-install-recommends build-essential pkg-config libusb-1.0-0-dev usbutils cmake
 
 RUN curl -OL https://github.com/raspberrypi/pico-sdk-tools/releases/download/v2.1.1-2/picotool-2.1.1-aarch64-lin.tar.gz \
  &&  tar xzf picotool-2.1.1-aarch64-lin.tar.gz \

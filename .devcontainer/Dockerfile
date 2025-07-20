@@ -13,6 +13,8 @@ RUN rm -f tar xzf picotool-2.1.1-aarch64-lin.tar.gz \
   && curl -OL https://raw.githubusercontent.com/raspberrypi/picotool/refs/heads/master/udev/99-picotool.rules  \
   && mv ./99-picotool.rules /etc/udev/rules.d/ 
 
+# target the ARM Cortex-M33 cores or Hazard3 RISC-V cores
+# see https://doc.rust-lang.org/nightly/rustc/platform-support/thumbv8m.main-none-eabi.html  
 RUN  rustup target add thumbv8m.main-none-eabihf \
   && rustup target add riscv32imac-unknown-none-elf
 

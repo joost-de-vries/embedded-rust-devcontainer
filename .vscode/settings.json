@@ -27,4 +27,5 @@
   "rust-analyzer.linkedProjects": [
     "./Cargo.toml",
   ],
+//  "rust-analyzer.trace.server": "verbose",
 }

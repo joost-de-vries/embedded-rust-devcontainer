@@ -2,7 +2,7 @@
 
 This is a clone of https://github.com/ImplFerris/pico2-quick that adds a Visual Code Rust dev container complete with the [dev setup for RP Pico 2 development](https://pico.implrust.com/setup.html).  
 It's the quickstart of the book [Embedded Programming with Raspberry Pi Pico 2 and Rust](https://github.com/ImplFerris/pico-pico).
-Which seems a gentle walk through of some [Embassy examples](https://github.com/embassy-rs/embassy/blob/main/examples/rp/src/bin/blinky.rs)
+Which seems a gentle walk through of some [Embassy examples](https://github.com/embassy-rs/embassy/blob/main/examples/rp235x/src/bin/blinky.rs)
 
 
 
@@ -31,6 +31,9 @@ Look for `RP2350 Boot`
 
 [Embedded Rust Book](https://docs.rust-embedded.org/book/)  
 [Embassy Book](https://embassy.dev/book/)
+
+[Libs](https://github.com/rust-embedded/awesome-embedded-rust?tab=readme-ov-file#no-std-crates)  
+For mqtt etc
 
 [RustNL meetup](https://youtu.be/XI8JvFUUTso?si=-tZ7Ck8AgCG9tadF) 
 [RustNL](https://rustnl.org/#join)   

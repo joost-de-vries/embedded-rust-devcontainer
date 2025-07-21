@@ -15,7 +15,7 @@ Rebuild and Reopen in Container`
 
 (The rust devcontainer : https://github.com/devcontainers/images/blob/main/src/rust/.devcontainer/Dockerfile)   
 Once the dev container is running, in the terminal do   
-```cargo build  --target=thumbv8m.main-none-eabihf```  
+```cargo build```  
 ```cargo run```
 
 ### debugging

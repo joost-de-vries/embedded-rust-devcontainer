@@ -10,6 +10,7 @@ embassy-executor = { git = "https://github.com/embassy-rs/embassy", version = "0
   "executor-interrupt",
   "defmt",
 ] }
+defmt = "1.0.1"
 defmt-rtt = "1.0.0"
 panic-probe = { version = "1.0.0", features = ["print-defmt"] }
 embassy-time = { git = "https://github.com/embassy-rs/embassy", version = "0.4.0", features = ["defmt", "defmt-timestamp-uptime"]  }

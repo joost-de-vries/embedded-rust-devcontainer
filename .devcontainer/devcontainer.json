@@ -19,7 +19,14 @@
             "userGid": "1000",
             "upgradePackages": "true"
         },
-//        "ghcr.io/devcontainers/features/rust:1": "latest",
+        // see https://github.com/devcontainers/features/tree/main/src/rust
+       "ghcr.io/devcontainers/features/rust:1": {
+            "version":"latest",
+            // target the ARM Cortex-M33 cores or Hazard3 RISC-V cores
+            // see https://doc.rust-lang.org/nightly/rustc/platform-support/thumbv8m.main-none-eabi.html  
+
+            "targets": "thumbv8m.main-none-eabihf,riscv32imac-unknown-none-elf"
+        },
 	    "ghcr.io/devcontainers/features/git:1": {
             "version": "latest",
             "ppa": "false"
